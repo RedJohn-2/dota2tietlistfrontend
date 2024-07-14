@@ -4,7 +4,7 @@ import Avatar from './Avatar'
 
 export default function Menubar() {
   return (
-    <div className='bg-stone-600 min-w-full h-1/4 flex p-10 justify-between items-center border-b-8 border-black'>
+    <div className='bg-stone-600 min-w-full h-1/5 min-h-52 flex p-10 justify-between items-center border-b-8 border-black fixed z-10'>
       <div className='flex my-10 mr-24 items-center'>
         <div className='bg-lime-600 h-20 w-20 border-black border-2 rounded-xl -rotate-45  object-center translate-y-5'>
           <h1 className='text-6xl text-center object-center text-white font-sans stroke-purple-900 py-1 select-none'>F</h1>
@@ -24,8 +24,7 @@ export default function Menubar() {
           <MenuItem>TierLists</MenuItem>
           <MenuItem>Support</MenuItem>
           <Avatar/>
-        </div>
-        
+        </div>  
     </div>
   )
 }

@@ -7,10 +7,11 @@ import { tierLists } from './services/tierlists'
 
 export default function App() {
   return (
-    <div className='bg-stone-500 min-w-full min-h-full h-auto flex flex-col justify-start items-center'>
+    <div className='bg-stone-500 min-w-full min-h-full h-auto flex flex-col flex-1 justify-start items-center'>
       <Menubar/>
+      <div className='min-w-full h-1/5 min-h-52 my-4'></div>
       <WhiteSpace>
-        <TierLists tierLists = {tierLists}/>
+        <TierLists lists={tierLists} title='qweqw'/>
       </WhiteSpace>
     </div>
   )
