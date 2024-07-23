@@ -5,6 +5,7 @@ import Patch from './components/Patch'
 import TierLists from './components/TierLists'
 import { tierLists } from './services/tierlists'
 import TierList from './components/TierList'
+import RegistrationForm from './components/RegistrationForm'
 
 export default function App() {
   return (
@@ -12,7 +13,7 @@ export default function App() {
       <Menubar/>
       <div className='min-w-full h-1/5 min-h-52 my-4'></div>
       <WhiteSpace>
-        <TierList></TierList>
+        <RegistrationForm></RegistrationForm>
       </WhiteSpace>
     </div>
   )
